@@ -25,7 +25,7 @@ export const navLinks = [
   { href: "#home", label: "Home" },
   { href: "#about-us", label: "About Us" },
   { href: "#products", label: "Products" },
-  { href: "#contact-us", label: "Contact Us" },
+  // { href: "#contact-us", label: "Contact Us" },
 ];
 
 export const shoes = [
@@ -44,9 +44,9 @@ export const shoes = [
 ];
 
 export const statistics = [
-  { value: "1k+", label: "Brands" },
-  { value: "500+", label: "Shops" },
-  { value: "250k+", label: "Customers" },
+  { value: "10", label: "Years of exp." },
+  { value: "18", label: "Shoes" },
+  { value: "1k +", label: "Kilometers" },
 ];
 
 export const products = [
@@ -133,14 +133,14 @@ export const footerLinks = [
   {
     title: "Get in touch",
     links: [
-      { name: "customer@nike.com", link: "mailto:customer@nike.com" },
-      { name: "+92554862354", link: "tel:+92554862354" },
+      { name: "mikiry@seznam.com", link: "mailto:mikiry@seznam.com" },
+      { name: "+987654321", link: "tel:+987654321" },
     ],
   },
 ];
 
 export const socialMedia = [
-  { src: facebook, alt: "facebook logo" },
-  { src: twitter, alt: "twitter logo" },
-  { src: instagram, alt: "instagram logo" },
+  { src: facebook, alt: "facebook logo", link: "/" },
+  { src: twitter, alt: "twitter logo", link: "/" },
+  { src: instagram, alt: "instagram logo", link: "/" },
 ];

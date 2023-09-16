@@ -1,13 +1,4 @@
-import {
-  CustomerReviews,
-  Footer,
-  Hero,
-  PopularProducts,
-  Services,
-  SpecialOffer,
-  Subscribe,
-  SuperQuality,
-} from "./sections";
+import { Footer, Hero, PopularProducts, SuperQuality } from "./sections";
 import Nav from "./components/Nav";
 
 const App = () => (
@@ -22,7 +13,7 @@ const App = () => (
     <section className="padding">
       <SuperQuality />
     </section>
-    <section className="padding-x py-10">
+    {/* <section className="padding-x py-10">
       <Services />
     </section>
     <section className="padding">
@@ -33,8 +24,8 @@ const App = () => (
     </section>
     <section className="padding-x sm:py-32 py-16 w-full">
       <Subscribe />
-    </section>
-    <section className="bg-black padding-x padding-t pb-8">
+    </section> */}
+    <section className="bg-[#475245] padding-x padding-t pb-8">
       <Footer />
     </section>
   </main>
